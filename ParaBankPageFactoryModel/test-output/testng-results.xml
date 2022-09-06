@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is launched.]]>
+    </line>
+    <line>
+      <![CDATA[Register Text link is clicked.]]>
+    </line>
+    <line>
+      <![CDATA[The user First Name is Salman.]]>
+    </line>
+    <line>
+      <![CDATA[The user Last Name is Raza.]]>
+    </line>
+    <line>
+      <![CDATA[The user Address is Siwan.]]>
+    </line>
+    <line>
+      <![CDATA[The user City is Siwan.]]>
+    </line>
+    <line>
+      <![CDATA[The user State is Bihar.]]>
+    </line>
+    <line>
+      <![CDATA[The user Zip Code is 841226.]]>
+    </line>
+    <line>
+      <![CDATA[The user Phone Number is 9586420032.]]>
+    </line>
+    <line>
+      <![CDATA[The user SSN is 841226123.]]>
+    </line>
+    <line>
+      <![CDATA[The user Name is salmanRa.]]>
+    </line>
+    <line>
+      <![CDATA[The user confirmation Password is 123456.]]>
+    </line>
+    <line>
+      <![CDATA[The user Password is 123456.]]>
+    </line>
+    <line>
+      <![CDATA[Register Button is clicked.]]>
+    </line>
+    <line>
+      <![CDATA[The Actual and Expected Message of Successful User Registration are Same.]]>
+    </line>
+    <line>
+      <![CDATA[The Successful user Registration Message is validated.]]>
+    </line>
+    <line>
+      <![CDATA[The Successful Registration Message is Your account was created successfully.]]>
+    </line>
+    <line>
+      <![CDATA[User is logged out.]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-16T13:48:53 IST" name="Automation Suite" finished-at="2022-08-16T13:49:08 IST" duration-ms="15286">
+    <groups>
+    </groups>
+    <test started-at="2022-08-16T13:48:53 IST" name="ParaBankUserRegistrationTest" finished-at="2022-08-16T13:49:08 IST" duration-ms="15286">
+      <class name="com.telus.testcases.ParaBankUserRegistrationEndToEndTest">
+        <test-method signature="launchApplication()[pri:1, instance:com.telus.testcases.ParaBankUserRegistrationEndToEndTest@15eb5ee5]" started-at="2022-08-16T13:48:53 IST" name="launchApplication" finished-at="2022-08-16T13:49:03 IST" duration-ms="10181" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is launched.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="clickRegisterLink()[pri:2, instance:com.telus.testcases.ParaBankUserRegistrationEndToEndTest@15eb5ee5]" started-at="2022-08-16T13:49:03 IST" name="clickRegisterLink" finished-at="2022-08-16T13:49:04 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register Text link is clicked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickRegisterLink -->
+        <test-method signature="registerUser()[pri:3, instance:com.telus.testcases.ParaBankUserRegistrationEndToEndTest@15eb5ee5]" started-at="2022-08-16T13:49:04 IST" name="registerUser" finished-at="2022-08-16T13:49:07 IST" duration-ms="2601" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The user First Name is Salman.]]>
+            </line>
+            <line>
+              <![CDATA[The user Last Name is Raza.]]>
+            </line>
+            <line>
+              <![CDATA[The user Address is Siwan.]]>
+            </line>
+            <line>
+              <![CDATA[The user City is Siwan.]]>
+            </line>
+            <line>
+              <![CDATA[The user State is Bihar.]]>
+            </line>
+            <line>
+              <![CDATA[The user Zip Code is 841226.]]>
+            </line>
+            <line>
+              <![CDATA[The user Phone Number is 9586420032.]]>
+            </line>
+            <line>
+              <![CDATA[The user SSN is 841226123.]]>
+            </line>
+            <line>
+              <![CDATA[The user Name is salmanRa.]]>
+            </line>
+            <line>
+              <![CDATA[The user confirmation Password is 123456.]]>
+            </line>
+            <line>
+              <![CDATA[The user Password is 123456.]]>
+            </line>
+            <line>
+              <![CDATA[Register Button is clicked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="successfulMsgValidation()[pri:4, instance:com.telus.testcases.ParaBankUserRegistrationEndToEndTest@15eb5ee5]" started-at="2022-08-16T13:49:07 IST" name="successfulMsgValidation" finished-at="2022-08-16T13:49:08 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Actual and Expected Message of Successful User Registration are Same.]]>
+            </line>
+            <line>
+              <![CDATA[The Successful user Registration Message is validated.]]>
+            </line>
+            <line>
+              <![CDATA[The Successful Registration Message is Your account was created successfully.]]>
+            </line>
+            <line>
+              <![CDATA[User is logged out.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfulMsgValidation -->
+        <test-method signature="closeApplication()[pri:5, instance:com.telus.testcases.ParaBankUserRegistrationEndToEndTest@15eb5ee5]" started-at="2022-08-16T13:49:08 IST" name="closeApplication" finished-at="2022-08-16T13:49:08 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.telus.testcases.ParaBankUserRegistrationEndToEndTest -->
+    </test> <!-- ParaBankUserRegistrationTest -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
