@@ -22,9 +22,9 @@ public class ParaBankUserRegistrationEndToEndTest {
 	String zipCodeValue = "841226";
 	String phoneValue = "9586420032";
 	String ssnValue = "841226123";
-	String userNameValue = "salmanRa";
-	String passwordValue = "123456";
-	String confirmPasswordValue = "123456";
+	String userNameValue = "lion";
+	String passwordValue = "1234567";
+	String confirmPasswordValue = "1234567";
 	
 	
 	public WebDriver driver;
